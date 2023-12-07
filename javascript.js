@@ -1,35 +1,27 @@
-
-
-function changeColor() {
-    // Get the div elements
+function changeColor()
+{
     var y1 = document.getElementById('y1');
     var y2 = document.getElementById('y2');
     var y3 = document.getElementById('y3');
-
-    // Generate a random color
     var Color = '#37E007'; 
     var Color2 = 'Gold'
-
-    // Apply the new color to the divs
-    y1.style.backgroundColor = Color;
-    y2.style.backgroundColor = Color2;
-    y3.style.backgroundColor = Color;
+    y1.style.backgroundImage = 'linear-gradient(to right, gold 30%, #37E007 100%)';
+    y2.style.backgroundImage = 'linear-gradient(to top, gold 30%, #37E007 100%)';
+    y3.style.backgroundImage = 'linear-gradient(to top, gold 30%, #37E007 100%)';
+    y4.style.backgroundImage = 'linear-gradient(to left, gold 30%, #37E007 100%)';
 }
 
-function changeColorback() {
-    // Get the div elements
+function changeColorback()
+{
     var y1 = document.getElementById('y1');
     var y2 = document.getElementById('y2');
     var y3 = document.getElementById('y3');
-
-    // Generate a random color
     var Color = 'Gold'; 
     var Color2 = '#37E007'
-
-    // Apply the new color to the divs
-    y1.style.backgroundColor = Color;
-    y2.style.backgroundColor = Color2;
-    y3.style.backgroundColor = Color;
+    y1.style.backgroundImage = 'linear-gradient(to left, gold 30%, #37E007 100%)';
+    y2.style.backgroundImage = 'linear-gradient(to bottom, gold 30%, #37E007 100%)';
+    y3.style.backgroundImage = 'linear-gradient(to bottom, gold 30%, #37E007 100%)';
+    y4.style.backgroundImage = 'linear-gradient(to right, gold 30%, #37E007 100%)';
 }
 var count = 0;
 function like()
